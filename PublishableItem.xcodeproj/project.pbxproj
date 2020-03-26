@@ -13,6 +13,7 @@
 		931D7666242BC06600736B1D /* PublishableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 931D7658242BC06600736B1D /* PublishableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		931D7670242BC07800736B1D /* PublishableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D766F242BC07800736B1D /* PublishableItem.swift */; };
 		931D7676242C914E00736B1D /* BehaviorRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D7675242C914E00736B1D /* BehaviorRelayTests.swift */; };
+		931D7678242C941100736B1D /* ReplaySubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D7677242C941100736B1D /* ReplaySubjectTests.swift */; };
 		E0C4C2247C0D79FA4939611E /* Pods_PublishableItem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C55CA280F2F6343E95EA740 /* Pods_PublishableItem.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		931D7665242BC06600736B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		931D766F242BC07800736B1D /* PublishableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishableItem.swift; sourceTree = "<group>"; };
 		931D7675242C914E00736B1D /* BehaviorRelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorRelayTests.swift; sourceTree = "<group>"; };
+		931D7677242C941100736B1D /* ReplaySubjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaySubjectTests.swift; sourceTree = "<group>"; };
 		A0D6B240A8ADE646920A68A9 /* Pods-PublishableItem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PublishableItem.release.xcconfig"; path = "Target Support Files/Pods-PublishableItem/Pods-PublishableItem.release.xcconfig"; sourceTree = "<group>"; };
 		B842085A2EC90E0331A35CC4 /* Pods-PublishableItem-PublishableItemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PublishableItem-PublishableItemTests.release.xcconfig"; path = "Target Support Files/Pods-PublishableItem-PublishableItemTests/Pods-PublishableItem-PublishableItemTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB70352162EA18AA6A14EE4F /* Pods_PublishableItem_PublishableItemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PublishableItem_PublishableItemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				931D7663242BC06600736B1D /* PublishableItemTests.swift */,
 				931D7665242BC06600736B1D /* Info.plist */,
 				931D7675242C914E00736B1D /* BehaviorRelayTests.swift */,
+				931D7677242C941100736B1D /* ReplaySubjectTests.swift */,
 			);
 			path = PublishableItemTests;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931D7678242C941100736B1D /* ReplaySubjectTests.swift in Sources */,
 				931D7664242BC06600736B1D /* PublishableItemTests.swift in Sources */,
 				931D7676242C914E00736B1D /* BehaviorRelayTests.swift in Sources */,
 			);
