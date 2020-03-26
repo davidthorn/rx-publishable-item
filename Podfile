@@ -6,6 +6,7 @@ target 'PublishableItem' do
   use_frameworks!
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxSwiftExt'
   # Pods for PublishableItem
 
   target 'PublishableItemTests' do
